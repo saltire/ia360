@@ -1,0 +1,56 @@
+{
+    "name": "Keyboard Actions",
+    "maps": [
+        {
+            "name": "Keys",
+            "id": "3b67d727-8e2d-4f48-8fb0-90f34ec5cc07",
+            "actions": [
+                {
+                    "name": "Run Code",
+                    "type": "PassThrough",
+                    "id": "ac3e8498-733d-4f16-b53f-4e845b3a9db5",
+                    "expectedControlType": "Key",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "One Modifier",
+                    "id": "1df2c6d0-c18d-4601-b510-2812102cf69a",
+                    "path": "OneModifier",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Run Code",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "380eb865-4b66-4c75-9453-da4ffb8a4b80",
+                    "path": "<Keyboard>/leftCtrl",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Run Code",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "36e84bfb-f517-43a1-9a7c-7d9808de55f0",
+                    "path": "<Keyboard>/rightAlt",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Run Code",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
